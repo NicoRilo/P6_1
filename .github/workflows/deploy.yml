@@ -1,4 +1,4 @@
-name: Deploy Spring Boot to EC2 (Ubuntu)  # Nombre del workflow
+name: Deploy Spring Boot to EC2 (Ubuntu) last # Nombre del workflow
 run: mvn clean package -DskipTests
 on:
   push:                               
